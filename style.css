@@ -1,0 +1,183 @@
+html {
+    font-size: 10px;
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;  
+}
+
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+nav header {
+    font-size: 3.4rem; 
+    padding: 15px 0;
+    margin: 0 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.9rem;
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+nav ul li {
+    border-top-style: solid;   
+    
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;   
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 0 20px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+section p {
+    padding: 0 10px;
+}
+
+section ul {
+    padding: 0 80px;
+}
+
+
+p, ul {
+    font-size: 1.7rem;
+}
+
+header {
+   font-size: 3.5rem; 
+    color: black;
+}
+
+.main-section ul li{
+    margin-bottom: 15px; 
+}
+
+@media (max-width: 820px) {
+    #navbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        max-height: 275px;
+        font-size: 3rem;
+    }
+
+    nav ul {
+        height: 237px;
+        font-size: 1.8rem;
+    }
+    
+    #main-doc {
+        position: relative;
+        margin: 0;
+        margin-top: 350px;
+    }
+    
+    .main-section p, .main-section ul {
+        font-size: 1.6rem;
+    }
+    
+    code {
+        font-size: 1.3rem;
+    }
+    
+    section header {
+        margin-left: -10px;
+        font-size: 3rem;
+    }
+    
+    section p {
+        padding: 0;
+    }
+
+    section ul {
+        padding: 0 30px;
+    }
+    
+    
+}
+
+@media (max-width: 450px) {
+    #navbar header{
+        font-size: 2.7rem;
+    }
+
+    nav ul {
+        height: 217px;
+        font-size: 1.5rem;
+    }
+    
+    #main-doc {
+        margin-top: 280px;
+    }
+    
+    .main-section p, .main-section ul {
+        font-size: 1.4rem;
+        margin: 8px 0;
+    }
+    
+    code {
+        font-size: 1.2rem;
+        margin-right: 50px;
+    }
+    
+    section header {
+        font-size: 2.6rem;
+    } 
+    
+}
+
+
+@media (max-width: 375px) {
+     nav ul {
+        height: 210px        
+    }
+    
+    section ul {
+        padding: 0 30px;
+    }
+}
+
+
